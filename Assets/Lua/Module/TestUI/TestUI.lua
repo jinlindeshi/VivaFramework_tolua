@@ -6,7 +6,9 @@ local TestUI = class("TestUI", TestUI_Generate)
 function TestUI:Ctor()
 	TestUI.super.Ctor(self, "Prefabs/TestUI/TestUI.prefab", nil, Constants.LAYER_WINDOW)
 
-	Happy.BtnClickDownUP(self.closeBtn, happyCall(self, self.Hide))
+	Happy.BtnClickDownUP(self.closeBtn, function()
+		print("关闭")
+	end)
 end
 
 -- 关闭窗口时触发 

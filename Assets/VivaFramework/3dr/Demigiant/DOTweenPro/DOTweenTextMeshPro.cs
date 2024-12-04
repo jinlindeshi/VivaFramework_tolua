@@ -5,7 +5,8 @@
 // This work is subject to the terms at http://dotween.demigiant.com/license.php
 
 
-#if true // MODULE_MARKER
+#if false // MODULE_MARKER
+#endif
 using System;
 using System.Globalization;
 using System.Collections.Generic;
@@ -1002,4 +1003,3 @@ namespace DG.Tweening
 
     #endregion
 }
-#endif
