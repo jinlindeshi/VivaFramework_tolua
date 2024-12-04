@@ -343,6 +343,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075997445}
     m_Modifications:
+    - target: {fileID: 4023783815248419337, guid: c5271c4aa4dc75744b77a72f642da13d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023783815248419337, guid: c5271c4aa4dc75744b77a72f642da13d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023783815248419337, guid: c5271c4aa4dc75744b77a72f642da13d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6332178730877122408, guid: c5271c4aa4dc75744b77a72f642da13d, type: 3}
       propertyPath: m_Name
       value: TestUI

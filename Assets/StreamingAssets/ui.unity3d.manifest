@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2239432417
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b82c53ddeb3bf99267ac0911c8278398
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/UI/yjjx.png
+- Assets/Res/UI/Group 427319827.png
+- Assets/Res/UI/Group 427319174.png
+- Assets/Res/UI/Group 427319798.png
+- Assets/Res/UI/Component 174.png
+Dependencies: []

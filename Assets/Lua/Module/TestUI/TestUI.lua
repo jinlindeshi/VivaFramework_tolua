@@ -9,6 +9,17 @@ function TestUI:Ctor()
 	Happy.BtnClickDownUP(self.closeBtn, function()
 		print("关闭")
 	end)
+
+	for i = 0, self.content.transform.childCount-1 do
+		local imgObj = self.content.transform:GetChild(i).gameObject
+		local img = GetComponent.Image(imgObj)
+		Happy.BtnClickDownUP(imgObj, function()
+
+			Happy.SetColorAlpha(img, 1)
+		end, function()
+			Happy.SetColorAlpha(img, 0.5)
+		end, true)
+	end
 end
 
 -- 关闭窗口时触发 

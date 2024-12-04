@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 579368727
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: lua/lua.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: scene_basescene.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: prefabs.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: prefabs^testui.unity3d
+      Dependencies:
+        Dependency_0: ui.unity3d
+        Dependency_1: ui^pic.unity3d
+    Info_4:
+      Name: ui.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: ui^pic.unity3d
+      Dependencies: {}

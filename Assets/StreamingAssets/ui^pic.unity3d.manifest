@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1587244032
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62b4d9f97a0b777a35bc5e5208df017d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/UI/pic/Mask group (1).png
+- Assets/Res/UI/pic/Mask group (3).png
+- Assets/Res/UI/pic/Mask group (5).png
+- Assets/Res/UI/pic/Mask group (6).png
+- Assets/Res/UI/pic/Mask group (7).png
+- Assets/Res/UI/pic/Mask group (2).png
+- Assets/Res/UI/pic/Mask group (4).png
+- Assets/Res/UI/pic/Mask group.png
+- Assets/Res/UI/pic/Mask group (9).png
+Dependencies: []
