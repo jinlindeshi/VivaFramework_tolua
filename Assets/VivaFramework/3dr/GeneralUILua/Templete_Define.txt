@@ -1,0 +1,17 @@
+#CLASS
+---@class  CLASSNAME_Define:LuaObj
+local CLASSNAME_Define = class("CLASSNAME_Define", LuaObj)
+function CLASSNAME_Define:OnInitialize()
+	CLASSNAME_Define.super.OnInitialize(self)
+	local Root = self.gameObject.transform
+	local tmp
+
+	{0}
+end
+
+return CLASSNAME_Define
+#CLASS
+
+#DEFINE
+
+#DEFINE

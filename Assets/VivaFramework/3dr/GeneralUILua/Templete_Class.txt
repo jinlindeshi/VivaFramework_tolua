@@ -1,0 +1,20 @@
+local CLASSNAME_Generate = require "Module.PATH.CLASSNAME_Generate"
+---@class CLASSNAME:CLASSNAME_Generate
+local CLASSNAME = class("CLASSNAME", CLASSNAME_Generate)
+
+-- 初始化 （注册按钮监听等）
+function CLASSNAME:Ctor()
+	CLASSNAME.super.Ctor(self)
+end
+
+-- 关闭窗口时触发 
+function CLASSNAME:OnRecycle()
+	CLASSNAME.super.OnRecycle(self)
+end
+
+--销毁窗口触发（注销按钮监听等）
+function CLASSNAME:OnDestroy()
+	CLASSNAME.super.OnDestroy(self)
+end
+
+return CLASSNAME

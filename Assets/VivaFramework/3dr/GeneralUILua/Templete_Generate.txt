@@ -1,0 +1,29 @@
+#CLASS
+---@class  CLASSNAME_Generate:LuaObj
+local CLASSNAME_Generate = class("CLASSNAME_Generate", LuaObj)
+function CLASSNAME_Generate:Ctor(prefabPath, gameObject, parent)
+	CLASSNAME_Generate.super.Ctor(self,prefabPath, gameObject, parent)
+	local Root = self.gameObject.transform
+	local tmp
+
+	{0}
+end
+
+return CLASSNAME_Generate
+#CLASS
+
+#BINDCONTENT
+	local tmp = Root:Find("NODEPATH").gameObject ---@type UnityEngine.GameObject
+	if tolua.getpeer(tmp) == nil then
+		tolua.setpeer(tmp, {})
+	end
+
+	self.NODENAME = tmp
+
+#BINDCONTENT
+
+#BINDCOMPONENT
+
+	tmp.cOMPONENT = tmp:GetComponent(TypeInfo.COMPONENT)
+
+#BINDCOMPONENT
