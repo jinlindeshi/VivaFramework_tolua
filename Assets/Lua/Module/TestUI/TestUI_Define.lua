@@ -13,6 +13,26 @@ function TestUI_Define:Ctor(prefabPath, gameObject, parent)
 		canvasGroup = {}
 	}
 
+		self.scroll = {
+
+		---@type UnityEngine.UI.ScrollRect
+		scrollRect = {}
+	}
+
+		self.info = {
+
+		---@type UnityEngine.CanvasGroup
+		canvasGroup = {},
+		---@type UnityEngine.RectTransform
+		rectTransform = {}
+	}
+
+		self.img = {
+
+		---@type UnityEngine.UI.Image
+		image = {}
+	}
+
 end
 
 return TestUI_Define

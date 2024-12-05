@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 471242145
+CRC: 2864883364
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c208b4f956782531915ec27adefc7901
+    Hash: 2dbfd07b58c21eb6cb0f2e6c71e37bca
   TypeTreeHash:
     serializedVersion: 2
     Hash: c21d61fe394c58399df3c6fb5c7c99b3
@@ -15,13 +15,13 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Res/UI/pic/2.png
-- Assets/Res/UI/pic/4.png
-- Assets/Res/UI/pic/6.png
-- Assets/Res/UI/pic/7.png
-- Assets/Res/UI/pic/8.png
-- Assets/Res/UI/pic/3.png
-- Assets/Res/UI/pic/5.png
-- Assets/Res/UI/pic/1.png
-- Assets/Res/UI/pic/9.png
+- Assets/Res/UI/bigPic/3.png
+- Assets/Res/UI/bigPic/6.png
+- Assets/Res/UI/bigPic/8.png
+- Assets/Res/UI/bigPic/2.png
+- Assets/Res/UI/bigPic/1.png
+- Assets/Res/UI/bigPic/7.png
+- Assets/Res/UI/bigPic/4.png
+- Assets/Res/UI/bigPic/5.png
+- Assets/Res/UI/bigPic/9.png
 Dependencies: []

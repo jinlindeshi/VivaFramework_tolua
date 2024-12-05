@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 579368727
+CRC: 3110247789
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -20,5 +20,8 @@ AssetBundleManifest:
       Name: ui.unity3d
       Dependencies: {}
     Info_5:
+      Name: ui^bigpic.unity3d
+      Dependencies: {}
+    Info_6:
       Name: ui^pic.unity3d
       Dependencies: {}
