@@ -98,7 +98,7 @@ end
 Happy.btnEffObjs = {}
 ---带默认效果的点击交互
 ---@param gameObj UnityEngine.GameObject
-function Happy.BtnClickDownUP(gameObj, UpCallback, DownCallback, noEff, setScale)
+function Happy.BtnClickDownUP(gameObj, UpCallback, DownCallback, ExitCallback, noEff, setScale)
     Happy.ClearBtnClick(gameObj)
     local initScale = gameObj.transform.localScale
     local isDown = false
@@ -125,6 +125,9 @@ function Happy.BtnClickDownUP(gameObj, UpCallback, DownCallback, noEff, setScale
     local ExitL = function()
         if not noEff and isDown == true then
             gameObj.transform:DOScale(initScale, 0.05)
+        end
+        if ExitCallback then
+            ExitCallback()
         end
     end
     local exitHandler = AddButtonHandler(gameObj, PointerHandler.EXIT, ExitL)

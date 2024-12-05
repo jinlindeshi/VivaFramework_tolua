@@ -1,8 +1,8 @@
 #CLASS
 ---@class  CLASSNAME_Define:LuaObj
 local CLASSNAME_Define = class("CLASSNAME_Define", LuaObj)
-function CLASSNAME_Define:OnInitialize()
-	CLASSNAME_Define.super.OnInitialize(self)
+function CLASSNAME_Define:Ctor(prefabPath, gameObject, parent)
+	CLASSNAME_Define.super.Ctor(self, prefabPath, gameObject, parent)
 	local Root = self.gameObject.transform
 	local tmp
 

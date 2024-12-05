@@ -9,6 +9,7 @@ TypeInfo = {
     GameObject = typeof(UnityEngine.GameObject),
     Material = typeof(UnityEngine.Material),
     RectTransform = typeof(UnityEngine.RectTransform),
+    CanvasGroup = typeof(UnityEngine.CanvasGroup),
 
 
     Image = typeof(UnityEngine.UI.Image),

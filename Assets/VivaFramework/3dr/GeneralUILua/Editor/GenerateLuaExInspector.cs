@@ -772,7 +772,7 @@ public class CatchComponentWnd : EditorWindow
     private void Generate()
     {
         string className = gLua.rootNode.transform.name;
-        // GenerateDefineClass(className);
+        GenerateDefineClass(className);
         GenerateSubClass(className);
         GenerateClass(className);
         AssetDatabase.Refresh();

@@ -96,8 +96,8 @@
     <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\Utilities\AstarParallel.cs" />
     <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\Navmesh\NavmeshUpdates.cs" />
     <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\Core\Misc\Int3.cs" />
-    <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\PackageTools\UniqueComponentAttribute.cs" />
     <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\TurnBased\BlockManager.cs" />
+    <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\PackageTools\UniqueComponentAttribute.cs" />
     <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\Generators\Utilities\GridLookup.cs" />
     <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\Utilities\AstarChecksum.cs" />
     <Compile Include="Assets\VivaFramework\3dr\AstarPathfindingProject\Generators\Utilities\EuclideanEmbedding.cs" />

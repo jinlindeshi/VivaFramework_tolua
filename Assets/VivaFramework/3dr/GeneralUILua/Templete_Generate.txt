@@ -1,6 +1,7 @@
 #CLASS
----@class  CLASSNAME_Generate:LuaObj
-local CLASSNAME_Generate = class("CLASSNAME_Generate", LuaObj)
+local CLASSNAME_Define = require "Module.PATH.CLASSNAME_Define"
+---@class  CLASSNAME_Generate:CLASSNAME_Define
+local CLASSNAME_Generate = class("CLASSNAME_Generate", CLASSNAME_Define)
 function CLASSNAME_Generate:Ctor(prefabPath, gameObject, parent)
 	CLASSNAME_Generate.super.Ctor(self,prefabPath, gameObject, parent)
 	local Root = self.gameObject.transform
